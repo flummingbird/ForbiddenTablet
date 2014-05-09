@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<script src="jquery.js"></script>
+		<script src="CurrentBuild/nexusUI.min.js"></script>
+	</head>
+
+	<body style="width:100%">
+        
+        
+        <div>
+		<canvas nx="tilt" ></canvas>
+		<canvas nx="button" ></canvas>
+        </div>
+
+        
+        
+
+		<script>
+
+			var debug = document.getElementById("debug");
+
+			nx.onload = function() {
+
+				nx.colorize("#0AF");
+                
+                // use local transmit
+				nx.setTransmissionProtocol("local");
+                
+                
+                // STEP 3:
+                
+                // In the localTransmit function, send your data to the URL for XCode to pick up
+                // I.E. this href concatenates your URL to look like:
+                // nexus://hipno/multitouch:100:234:23:485:32:34:700: ... etc,
+                // where those numbers are your x-y values
+                
+				tilt1.localTransmit = function(data) {
+					window.location.href = "nexus://hipno/tilt1:"
+						+ data[0] + ":" + data[1];
+                    }
+                
+				button1.localTransmit = function(data) {
+					window.location.href = "nexus://hipno/button1:"
+                    + data[0] + ":" + data[1];
+                }
+            }
+        
+        
+				
+		</script>
+
+	</body>
+
+</html>
