@@ -2233,7 +2233,7 @@ function multislider(target, transmitCommand, uiIndex) {
 	//self awareness
 	var self = this;
 	this.uiIndex = uiIndex;
-	this.defaultSize = { width: 300, height: 200 };
+	this.defaultSize = { width: 400, height: 200 };
 	
 	//get common attributes and methods
 	this.getTemplate = getTemplate;
