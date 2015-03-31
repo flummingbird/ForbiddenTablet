@@ -27,8 +27,18 @@
 		3715B993162F2F540026E296 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B98D162F27620026E296 /* libpd-ios.a */; };
 		3715B9A2162F42C70026E296 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B9A1162F42C70026E296 /* AudioToolbox.framework */; };
 		3715B9A4162F42CD0026E296 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B9A3162F42CD0026E296 /* AVFoundation.framework */; };
-		B5B4A0C918908B56003E0722 /* mag_template.pd in Resources */ = {isa = PBXBuildFile; fileRef = B5B4A0C818908B56003E0722 /* mag_template.pd */; };
 		B5B4A0D01890A05C003E0722 /* WebApp in Resources */ = {isa = PBXBuildFile; fileRef = B5B4A0CF1890A05C003E0722 /* WebApp */; };
+		DC3CA418194FC80300F0D528 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA40E194FC80300F0D528 /* Icon-72.png */; };
+		DC3CA419194FC80300F0D528 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA40F194FC80300F0D528 /* Icon-72@2x.png */; };
+		DC3CA41A194FC80300F0D528 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA410194FC80300F0D528 /* Icon-Small-50.png */; };
+		DC3CA41B194FC80300F0D528 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA411194FC80300F0D528 /* Icon-Small-50@2x.png */; };
+		DC3CA41C194FC80300F0D528 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA412194FC80300F0D528 /* Icon-Small.png */; };
+		DC3CA41D194FC80300F0D528 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA413194FC80300F0D528 /* Icon-Small@2x.png */; };
+		DC3CA41E194FC80300F0D528 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA414194FC80300F0D528 /* Icon.png */; };
+		DC3CA41F194FC80300F0D528 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA415194FC80300F0D528 /* Icon@2x.png */; };
+		DC3CA420194FC80300F0D528 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA416194FC80300F0D528 /* iTunesArtwork.png */; };
+		DC3CA421194FC80300F0D528 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CA417194FC80300F0D528 /* iTunesArtwork@2x.png */; };
+		DC8DE6E7194A483600CC5CFA /* 2Oscill.pd in Resources */ = {isa = PBXBuildFile; fileRef = DC8DE6E6194A483600CC5CFA /* 2Oscill.pd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +73,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3715B93E162F23330026E296 /* Nexus Mobile Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nexus Mobile Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B93E162F23330026E296 /* TwOscill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwOscill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715B942162F23330026E296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3715B944162F23330026E296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3715B946162F23330026E296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3715B94A162F23330026E296 /* Nexus Mobile Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nexus Mobile Template-Info.plist"; sourceTree = "<group>"; };
+		3715B94A162F23330026E296 /* TwOscill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwOscill-Info.plist"; sourceTree = "<group>"; };
 		3715B94C162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3715B94E162F23330026E296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3715B950162F23330026E296 /* Nexus Mobile Template-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nexus Mobile Template-Prefix.pch"; sourceTree = "<group>"; };
+		3715B950162F23330026E296 /* TwOscill-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwOscill-Prefix.pch"; sourceTree = "<group>"; };
 		3715B951162F23330026E296 /* MAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppDelegate.h; sourceTree = "<group>"; };
 		3715B952162F23330026E296 /* MAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppDelegate.m; sourceTree = "<group>"; };
 		3715B954162F23330026E296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -80,17 +90,27 @@
 		3715B95E162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		3715B960162F23330026E296 /* MAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGViewController.h; sourceTree = "<group>"; };
 		3715B961162F23330026E296 /* MAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGViewController.m; sourceTree = "<group>"; };
-		3715B968162F23330026E296 /* Nexus Mobile TemplateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nexus Mobile TemplateTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B968162F23330026E296 /* TwOscillTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwOscillTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715B969162F23330026E296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3715B971162F23340026E296 /* Nexus Mobile TemplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nexus Mobile TemplateTests-Info.plist"; sourceTree = "<group>"; };
+		3715B971162F23340026E296 /* TwOscillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwOscillTests-Info.plist"; sourceTree = "<group>"; };
 		3715B973162F23340026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3715B975162F23340026E296 /* Mobile_Music_TemplateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobile_Music_TemplateTests.h; sourceTree = "<group>"; };
 		3715B976162F23340026E296 /* Mobile_Music_TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Music_TemplateTests.m; sourceTree = "<group>"; };
 		3715B984162F27620026E296 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = libpd/libpd.xcodeproj; sourceTree = "<group>"; };
 		3715B9A1162F42C70026E296 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3715B9A3162F42CD0026E296 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B5B4A0C818908B56003E0722 /* mag_template.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mag_template.pd; sourceTree = "<group>"; };
 		B5B4A0CF1890A05C003E0722 /* WebApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebApp; sourceTree = "<group>"; };
+		DC3CA40E194FC80300F0D528 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		DC3CA40F194FC80300F0D528 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		DC3CA410194FC80300F0D528 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		DC3CA411194FC80300F0D528 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		DC3CA412194FC80300F0D528 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		DC3CA413194FC80300F0D528 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DC3CA414194FC80300F0D528 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DC3CA415194FC80300F0D528 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DC3CA416194FC80300F0D528 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		DC3CA417194FC80300F0D528 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		DC8DE6E6194A483600CC5CFA /* 2Oscill.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2Oscill.pd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +150,7 @@
 				3715B96F162F23330026E296 /* Mobile Music TemplateTests */,
 				3715B941162F23330026E296 /* Frameworks */,
 				3715B93F162F23330026E296 /* Products */,
-				B5B4A0C818908B56003E0722 /* mag_template.pd */,
+				DC8DE6E6194A483600CC5CFA /* 2Oscill.pd */,
 				B5B4A0CF1890A05C003E0722 /* WebApp */,
 			);
 			sourceTree = "<group>";
@@ -138,8 +158,8 @@
 		3715B93F162F23330026E296 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3715B93E162F23330026E296 /* Nexus Mobile Template.app */,
-				3715B968162F23330026E296 /* Nexus Mobile TemplateTests.octest */,
+				3715B93E162F23330026E296 /* TwOscill.app */,
+				3715B968162F23330026E296 /* TwOscillTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,13 +193,14 @@
 		3715B949162F23330026E296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3715B94A162F23330026E296 /* Nexus Mobile Template-Info.plist */,
+				3715B94A162F23330026E296 /* TwOscill-Info.plist */,
 				3715B94B162F23330026E296 /* InfoPlist.strings */,
 				3715B94E162F23330026E296 /* main.m */,
-				3715B950162F23330026E296 /* Nexus Mobile Template-Prefix.pch */,
+				3715B950162F23330026E296 /* TwOscill-Prefix.pch */,
 				3715B954162F23330026E296 /* Default.png */,
 				3715B956162F23330026E296 /* Default@2x.png */,
 				3715B958162F23330026E296 /* Default-568h@2x.png */,
+				DC3CA40D194FC80300F0D528 /* ios */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,7 +218,7 @@
 		3715B970162F23340026E296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3715B971162F23340026E296 /* Nexus Mobile TemplateTests-Info.plist */,
+				3715B971162F23340026E296 /* TwOscillTests-Info.plist */,
 				3715B972162F23340026E296 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -219,12 +240,29 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+		DC3CA40D194FC80300F0D528 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CA40E194FC80300F0D528 /* Icon-72.png */,
+				DC3CA40F194FC80300F0D528 /* Icon-72@2x.png */,
+				DC3CA410194FC80300F0D528 /* Icon-Small-50.png */,
+				DC3CA411194FC80300F0D528 /* Icon-Small-50@2x.png */,
+				DC3CA412194FC80300F0D528 /* Icon-Small.png */,
+				DC3CA413194FC80300F0D528 /* Icon-Small@2x.png */,
+				DC3CA414194FC80300F0D528 /* Icon.png */,
+				DC3CA415194FC80300F0D528 /* Icon@2x.png */,
+				DC3CA416194FC80300F0D528 /* iTunesArtwork.png */,
+				DC3CA417194FC80300F0D528 /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3715B93D162F23330026E296 /* Nexus Mobile Template */ = {
+		3715B93D162F23330026E296 /* TwOscill */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Nexus Mobile Template" */;
+			buildConfigurationList = 3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "TwOscill" */;
 			buildPhases = (
 				3715B93A162F23330026E296 /* Sources */,
 				3715B93B162F23330026E296 /* Frameworks */,
@@ -235,14 +273,14 @@
 			dependencies = (
 				3715B992162F2F290026E296 /* PBXTargetDependency */,
 			);
-			name = "Nexus Mobile Template";
+			name = TwOscill;
 			productName = "Mobile Music Template";
-			productReference = 3715B93E162F23330026E296 /* Nexus Mobile Template.app */;
+			productReference = 3715B93E162F23330026E296 /* TwOscill.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3715B967162F23330026E296 /* Nexus Mobile TemplateTests */ = {
+		3715B967162F23330026E296 /* TwOscillTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Nexus Mobile TemplateTests" */;
+			buildConfigurationList = 3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "TwOscillTests" */;
 			buildPhases = (
 				3715B963162F23330026E296 /* Sources */,
 				3715B964162F23330026E296 /* Frameworks */,
@@ -254,9 +292,9 @@
 			dependencies = (
 				3715B96E162F23330026E296 /* PBXTargetDependency */,
 			);
-			name = "Nexus Mobile TemplateTests";
+			name = TwOscillTests;
 			productName = "Mobile Music TemplateTests";
-			productReference = 3715B968162F23330026E296 /* Nexus Mobile TemplateTests.octest */;
+			productReference = 3715B968162F23330026E296 /* TwOscillTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +308,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = MAG;
 			};
-			buildConfigurationList = 3715B938162F23330026E296 /* Build configuration list for PBXProject "Nexus Mobile Template" */;
+			buildConfigurationList = 3715B938162F23330026E296 /* Build configuration list for PBXProject "TwOscill" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,8 +326,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				3715B93D162F23330026E296 /* Nexus Mobile Template */,
-				3715B967162F23330026E296 /* Nexus Mobile TemplateTests */,
+				3715B93D162F23330026E296 /* TwOscill */,
+				3715B967162F23330026E296 /* TwOscillTests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,13 +355,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3715B94D162F23330026E296 /* InfoPlist.strings in Resources */,
+				DC3CA420194FC80300F0D528 /* iTunesArtwork.png in Resources */,
+				DC3CA41F194FC80300F0D528 /* Icon@2x.png in Resources */,
 				B5B4A0D01890A05C003E0722 /* WebApp in Resources */,
-				B5B4A0C918908B56003E0722 /* mag_template.pd in Resources */,
+				DC3CA41A194FC80300F0D528 /* Icon-Small-50.png in Resources */,
+				DC3CA41C194FC80300F0D528 /* Icon-Small.png in Resources */,
+				DC3CA419194FC80300F0D528 /* Icon-72@2x.png in Resources */,
+				DC3CA418194FC80300F0D528 /* Icon-72.png in Resources */,
 				3715B955162F23330026E296 /* Default.png in Resources */,
+				DC3CA41B194FC80300F0D528 /* Icon-Small-50@2x.png in Resources */,
 				3715B957162F23330026E296 /* Default@2x.png in Resources */,
+				DC8DE6E7194A483600CC5CFA /* 2Oscill.pd in Resources */,
 				3715B959162F23330026E296 /* Default-568h@2x.png in Resources */,
+				DC3CA421194FC80300F0D528 /* iTunesArtwork@2x.png in Resources */,
 				3715B95C162F23330026E296 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DC3CA41E194FC80300F0D528 /* Icon.png in Resources */,
 				3715B95F162F23330026E296 /* MainStoryboard_iPad.storyboard in Resources */,
+				DC3CA41D194FC80300F0D528 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +425,7 @@
 /* Begin PBXTargetDependency section */
 		3715B96E162F23330026E296 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3715B93D162F23330026E296 /* Nexus Mobile Template */;
+			target = 3715B93D162F23330026E296 /* TwOscill */;
 			targetProxy = 3715B96D162F23330026E296 /* PBXContainerItemProxy */;
 		};
 		3715B992162F2F290026E296 /* PBXTargetDependency */ = {
@@ -479,10 +527,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mobile Music Template/Nexus Mobile Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music Template/Nexus Mobile Template-Info.plist";
+				GCC_PREFIX_HEADER = "Mobile Music Template/TwOscill-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music Template/TwOscill-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "Nexus Mobile Template";
+				PRODUCT_NAME = TwOscill;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
 				WRAPPER_EXTENSION = app;
@@ -493,10 +541,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mobile Music Template/Nexus Mobile Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music Template/Nexus Mobile Template-Info.plist";
+				GCC_PREFIX_HEADER = "Mobile Music Template/TwOscill-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music Template/TwOscill-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "Nexus Mobile Template";
+				PRODUCT_NAME = TwOscill;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
 				WRAPPER_EXTENSION = app;
@@ -513,8 +561,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music TemplateTests/Nexus Mobile TemplateTests-Info.plist";
-				PRODUCT_NAME = "Nexus Mobile TemplateTests";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/TwOscillTests-Info.plist";
+				PRODUCT_NAME = TwOscillTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -530,8 +578,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music TemplateTests/Nexus Mobile TemplateTests-Info.plist";
-				PRODUCT_NAME = "Nexus Mobile TemplateTests";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/TwOscillTests-Info.plist";
+				PRODUCT_NAME = TwOscillTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -540,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3715B938162F23330026E296 /* Build configuration list for PBXProject "Nexus Mobile Template" */ = {
+		3715B938162F23330026E296 /* Build configuration list for PBXProject "TwOscill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B978162F23340026E296 /* Debug */,
@@ -549,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Nexus Mobile Template" */ = {
+		3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "TwOscill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B97B162F23340026E296 /* Debug */,
@@ -558,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Nexus Mobile TemplateTests" */ = {
+		3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "TwOscillTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B97E162F23340026E296 /* Debug */,

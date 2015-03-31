@@ -173,7 +173,7 @@ var nxManager = function() {
 	
 	//iosTransmit is the function to send osc commands as urls to be captured by the browser.
 	this.iosTransmit = function (command, osc_name, id, data) {
-		var osc_message = "nexus://" + id + "?" + osc_name + "=" + data;
+		var osc_message = "nexus://" + "TwOscill" + osc_name + ":" + data;
 		console.log("ios Transmit: ", osc_message);
 		window.location.href = osc_message;
 	}
@@ -1110,7 +1110,7 @@ function dial(target, transmitCommand, uiIndex) {
 			
 		}
 
-		self.drawLabel();
+		//self.drawLabel();
 	}
 	
 

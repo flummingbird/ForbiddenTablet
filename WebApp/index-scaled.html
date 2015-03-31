@@ -13,28 +13,28 @@
         
         <div>
             <!--	<canvas nx="select" choices="sine, saw, tri, square">></canvas> -->
-            <canvas nx="message" label="sine" class="mess" id="push1" style="position:absolute;top:38%;left:5%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="saw" class="mess" id="push2" style="position:absolute;top:44%;left:5%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="tri" class="mess" id="push3" style="position:absolute;top:50%;left:5%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="square" class="mess" id="push4" style="position:absolute;top:56%;left:5%;width:15%;height:5%;"></canvas>
+            <canvas nx="message" label="sine" class="mess" id="push1" style="position:absolute;top:38%;left:5%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="saw" class="mess" id="push2" style="position:absolute;top:44%;left:5%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="tri" class="mess" id="push3" style="position:absolute;top:50%;left:5%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="square" class="mess" id="push4" style="position:absolute;top:56%;left:5%;width:50px;height:30px;"></canvas>
            
-            <canvas nx="dial" style="position:absolute;top:10%;left:1%;height:30%;width:30%"></canvas>
+            <canvas nx="dial" style="position:absolute;top:10%;left:1%;height:150px;width:150px"></canvas>
            
-            <canvas nx="message" label="x10" class="mess" id="mult1" style="position:absolute;top:38%;left:25%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="x100" class="mess" id="mult2" style="position:absolute;top:44%;left:25%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="x1000" class="mess" id="mult3" style="position:absolute;top:50%;left:25%;width:15%;height:5%;"></canvas>
+            <canvas nx="message" label="x10" class="mess" id="mult1" style="position:absolute;top:38%;left:25%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="x100" class="mess" id="mult2" style="position:absolute;top:44%;left:25%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="x1000" class="mess" id="mult3" style="position:absolute;top:50%;left:25%;width:50px;height:30px;"></canvas>
 
 
-            <canvas nx="message" label="sine" class="mess" id="push5" style="position:absolute;top:38%;right:25%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="saw" class="mess" id="push6" style="position:absolute;top:44%;right:25%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="tri" class="mess" id="push7" style="position:absolute;top:50%;right:25%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="square" class="mess" id="push8" style="position:absolute;top:56%;right:25%;width:15%;height:5%;"></canvas>
+            <canvas nx="message" label="sine" class="mess" id="push5" style="position:absolute;top:38%;right:25%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="saw" class="mess" id="push6" style="position:absolute;top:44%;right:25%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="tri" class="mess" id="push7" style="position:absolute;top:50%;right:25%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="square" class="mess" id="push8" style="position:absolute;top:56%;right:25%;width:50px;height:30px;"></canvas>
             
-            <canvas nx="dial" style="position:absolute;top:10%;right:1%;height:30%;width:30%"></canvas>
+            <canvas nx="dial" style="position:absolute;top:10%;right:1%;height:150px;width:150px"></canvas>
             
-            <canvas nx="message" label="x10" class="mess" id="mult4" style="position:absolute;top:38%;right:5%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="x100" class="mess" id="mult5" style="position:absolute;top:44%;right:5%;width:15%;height:5%;"></canvas>
-            <canvas nx="message" label="x1000" class="mess" id="mult6" style="position:absolute;top:50%;right:5%;width:15%;height:5%;"></canvas>
+            <canvas nx="message" label="x10" class="mess" id="mult4" style="position:absolute;top:38%;right:5%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="x100" class="mess" id="mult5" style="position:absolute;top:44%;right:5%;width:50px;height:30px;"></canvas>
+            <canvas nx="message" label="x1000" class="mess" id="mult6" style="position:absolute;top:50%;right:5%;width:50px;height:30px;"></canvas>
 
         <span id="debug" style="font-size:35pt;width:400px"></span>
 
@@ -48,13 +48,13 @@
 			var debug = document.getElementById("debug");
 
 			nx.onload = function() {
-                nx.showLabels=false;
-
 
 				nx.colorize("#0AF");
+                
                 // use local transmit
 				nx.setTransmissionProtocol("ios");
-              /*
+                nx.setTransmissionProtocl
+                
                 // STEP 3:
                 
                 // In the localTransmit function, send your data to the URL for XCode to pick up
@@ -101,7 +101,6 @@
                 dial2.localTransmit=function(data) {
                     window.location.href = "nexus://TwOscill/dial2:" + data[0];
                 }
-               */
             }
         
 				

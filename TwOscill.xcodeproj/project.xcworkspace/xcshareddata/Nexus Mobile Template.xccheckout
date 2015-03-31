@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2327BA9A-AE1D-41A5-8EA3-22F528C971DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nexus Mobile Template</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>186A7B36-D8A8-4817-9E32-9BB6E9CABB48</key>
+		<string>https://github.com/flummingbird/ForbiddenTablet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nexus Mobile Template.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>186A7B36-D8A8-4817-9E32-9BB6E9CABB48</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/flummingbird/ForbiddenTablet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>186A7B36-D8A8-4817-9E32-9BB6E9CABB48</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>186A7B36-D8A8-4817-9E32-9BB6E9CABB48</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ForbiddenTablet</string>
+		</dict>
+	</array>
+</dict>
+</plist>
